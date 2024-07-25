@@ -1,0 +1,32 @@
+.circle(@size:100px){
+  background-color: red;
+  border-radius: 50%;
+  width: @size;
+  height: @size;
+}
+.small-circle{
+  .circle();
+}
+.big-circle{
+  .circle(300px);
+}
+/*@width:400px;
+@height:@width + 200px;
+header{
+    width: @width;
+    height: @height;
+    background-color: rgb(64, 0, 0);
+}*/
+
+/*
+@width: 10px;
+@height: @width + 10px;
+header{
+    border: 2px solid rgb(38, 25, 25);
+}
+
+#header {
+  width: @width;
+  height: @height;
+  background-color: rgb(38, 0, 0);
+}*/
