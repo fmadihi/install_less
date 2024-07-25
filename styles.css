@@ -1,4 +1,4 @@
-/*.circle(@size:100px){
+.circle(@size:100px){
   background-color: red;
   border-radius: 50%;
   width: @size;
@@ -9,20 +9,20 @@
 }
 .big-circle{
   .circle(300px);
-}*/
-/*@width:400px;
+}
+@width:400px;
 @height:@width + 200px;
 header{
     width: @width;
     height: @height;
     background-color: rgb(64, 0, 0);
-}*/
-/*
+}
+
 @min768: ~"(min-width: 768px)";
 .element {
   @media @min768 {
     font-size: 1.2rem;
   }
 }
-*/
+
 @import "typo.css";
