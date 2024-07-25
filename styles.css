@@ -1,15 +1,15 @@
-.small-circle {
+/*.circle(@size:100px){
   background-color: red;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: @size;
+  height: @size;
 }
-.big-circle {
-  background-color: red;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
+.small-circle{
+  .circle();
 }
+.big-circle{
+  .circle(300px);
+}*/
 /*@width:400px;
 @height:@width + 200px;
 header{
@@ -18,14 +18,11 @@ header{
     background-color: rgb(64, 0, 0);
 }*/
 /*
-@width: 10px;
-@height: @width + 10px;
-header{
-    border: 2px solid rgb(38, 25, 25);
+@min768: ~"(min-width: 768px)";
+.element {
+  @media @min768 {
+    font-size: 1.2rem;
+  }
 }
-
-#header {
-  width: @width;
-  height: @height;
-  background-color: rgb(38, 0, 0);
-}*/
+*/
+@import "typo.css";
